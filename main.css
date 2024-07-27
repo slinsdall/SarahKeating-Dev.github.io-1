@@ -3599,7 +3599,7 @@ input, select, textarea {
 		.banner {
 			width: 100%;
 			height: auto;
-			font-size: 1.2em;
+			text-align: center;
 		}
 	.banner img{
 		width: 100%;
