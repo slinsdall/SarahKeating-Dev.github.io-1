@@ -3595,7 +3595,19 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 	}
-
+    @media (max-width: 600px){
+		.banner {
+			width: 100%;
+			height: auto;
+			text-align: center;
+		}
+	.banner img{
+		width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+	}
+}
 		#banner h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
